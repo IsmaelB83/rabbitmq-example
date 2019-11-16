@@ -1,0 +1,32 @@
+{
+  "name": "rabbitmq-example",
+  "version": "1.0.0",
+  "description": "RabbitMQ example. Echo app.",
+  "main": "./src/sender.js",
+  "scripts": {
+    "sender": "nodemon ./src/sender.js",
+    "receiver": "nodemon ./src/receiver.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IsmaelB83/rabbitmq-example.git"
+  },
+  "keywords": [
+    "rabbitmq",
+    "microservices",
+    "micro",
+    "services",
+    "queue",
+    "distributed"
+  ],
+  "author": "Ismael Bernal",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/IsmaelB83/rabbitmq-example/issues"
+  },
+  "homepage": "https://github.com/IsmaelB83/rabbitmq-example#readme",
+  "dependencies": {
+    "amqplib": "^0.5.5",
+    "dotenv": "^8.2.0"
+  }
+}
