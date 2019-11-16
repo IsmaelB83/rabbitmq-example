@@ -10,10 +10,14 @@ RABBITMQ_URL=amqp://user:pass@hostname/instance
 To create an account in amqp cloud. You can go here https://www.cloudamqp.com/
 
 ## Installation and Usage
-First install the dependencies:
+First install the dependencies. 
 ```
 npm install
 ```
+This project only requires dotenv (to load .env parameters) and amqplib (to connect to amqp rabbitmq). You can find more information about these two packages here:
+- https://github.com/motdotla/dotenv
+- http://www.squaremobius.net/amqp.node/
+
 
 Then start the sender:
 ```
