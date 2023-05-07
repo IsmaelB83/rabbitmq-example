@@ -26,7 +26,7 @@
   },
   "homepage": "https://github.com/IsmaelB83/rabbitmq-example#readme",
   "dependencies": {
-    "amqplib": "^0.5.5",
+    "amqplib": "^0.10.3",
     "dotenv": "^8.2.0"
   }
 }
